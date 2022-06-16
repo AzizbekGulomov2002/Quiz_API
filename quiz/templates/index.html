@@ -1,0 +1,9 @@
+{% for savol in savollar %}
+
+{{ savol.savol | safe }}
+{{ savol.correct_answer | safe }}
+{{ savol.error_answer_1 | safe }}
+{{ savol.error_answer_2 | safe }}
+{{ savol.error_answer_3 | safe }}
+
+{% endfor %}
