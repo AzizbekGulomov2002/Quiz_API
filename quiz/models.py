@@ -1,6 +1,6 @@
-from tabnanny import verbose
-from django.db import models
 
+from django.db import models
+from django.urls import reverse
 # Create your models here.
 from django.db import models
 from ckeditor.fields import RichTextField
