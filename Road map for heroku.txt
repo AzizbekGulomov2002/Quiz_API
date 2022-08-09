@@ -1,0 +1,17 @@
+
+
+1) add new file Procfile
+2) web: gunicorn CCMS.wsgi --log-file -
+3) activate env and (pip install gunicorn), (pip install whitenoise)
+4) settings.py debug=FALSE
+5) middlewhere add:
+"whitenoise.middleware.WhiteNoiseMiddleware",
+6) ALLOWED_HOST = ['127.0.0.1']
+
+7) heroku web site add new app
+
+8) site settings build pack + Python
+
+9) deploy + github + app_name_github
+
+10) copy heroku_app name, project settings ALLOWED_HOST : (quizapp2002.herokuapp.com)
