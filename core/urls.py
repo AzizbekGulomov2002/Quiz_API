@@ -7,6 +7,7 @@ from django.conf.urls.static import static
 # from quiz.views import getsavol
 from django.views.static import serve
 from django.conf.urls import url
+
 from django.urls import reverse
 urlpatterns = [
     path('admin/', admin.site.urls),

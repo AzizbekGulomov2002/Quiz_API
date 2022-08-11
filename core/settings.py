@@ -132,7 +132,7 @@ import os
 STATIC_URL = '/static/'
 MEDIA_ROOT = ''
 MEDIA_URL = '/media/'
-STATIC_ROOT = 'static'
+STATIC_ROOT = 'static' 
 
 # CKEditor settings
 CKEDITOR_UPLOAD_PATH = "uploads/"
