@@ -1,5 +1,4 @@
 
-from distutils import core
 from pathlib import Path
 import os
 from core.jazzmin import JAZZMIN_SETTINGS
@@ -15,9 +14,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-d-8azxo3*zu163hdnn#@-n(io73!&+jkwvhxpze18)+tlo-=2#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1","quizapp2002.herokuapp.com"]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -47,7 +46,7 @@ CKEDITOR_CONFIGS = {
 }
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    "whitenoise.middleware.WhiteNoiseMiddleware",
+    # "whitenoise.middleware.WhiteNoiseMiddleware",
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     

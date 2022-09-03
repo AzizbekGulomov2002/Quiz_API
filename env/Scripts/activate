@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\User\Desktop\quiz API\env"
+VIRTUAL_ENV="C:\D disk\Django Real Projects\quiz API\env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
